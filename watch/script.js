@@ -1,0 +1,3 @@
+.dynamic-content {
+    display:none;
+}
