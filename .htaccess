@@ -1,0 +1,3 @@
+ErrorDocument 404 /redirect/404
+ErrorDocument 500 /redirect/404
+ErrorDocument 403 /redirect/403
