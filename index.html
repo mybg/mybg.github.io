@@ -1,118 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>MYB Streaming - Acceuil</title>
-  <link rel="icon" href="img/icon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Test Layout</title>
+        <style type="text/css">
+            body, html
+            {
+                margin: 0; padding: 0; height: 100%; overflow: hidden;
+            }
 
-
-</head>
-<body oncontextmenu="return false;">
-<script type="text/javascript">
-if (screen.width <= 699) {
-document.location = "redirect/mobile.html";
-}
-</script>
-<!-- partial:index.partial.html -->
-<header id="header">
-  <nav>
-    <ul>
-      <li onclick="location.href = 'oldui/index.html';">
-      <i class="fa fa-globe"></i>
-      <h6>ancienne ui</h6>
-    </li>
-      <img src="img/icon.png" alt="MED YASSIN" width="55" height="55"><p>
-      <li onclick="location.href = '/discover';">
-      <i class="fa fa-eye"></i>
-      <h6>découvrir</h6>
-    </li>
-     
-    </ul>
-  </nav>
-</header>
-<div id="fullpage">
-    <div class="section one">
-      <div class="movie-info">
-        <h1>MrBean</h1>
-        <p><span class="rating">R</span> 11h 21min - Comédie</p>
-        <div class="stars">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-        </div><!--stars end-->
-        <p>
-          Un solitaire désemparé mais intelligent se fraye un chemin à travers la vie à Londres.
-        </p>
-        <button id="play-btn" onclick="location.href = 'watch?play=mrbean';">
-          <i class="fa fa-play-circle"></i> Regarde
-        </button>
-      </div><!--movie-info end-->
-    </div>
-    <div class="section two">
-      <div class="movie-info">
-        <h1>Tom et Jerry</h1>
-        <p><span class="rating">PG-3</span> 188EPs - Kids</p>
-        <div class="stars">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star-half"></i>
-        </div><!--stars end-->
-        <p>
-          Une bataille chaotique s'ensuit entre Jerry Mouse et Tom le chat.
-        </p>
-        <button id="play-btn" onclick="location.href = 'watch?play=tomandjerry';">
-          <i class="fa fa-play-circle"></i> Regarde
-        </button>
-      </div><!--movie-info end-->
-    </div>
-    <div class="section three">
-      <div class="movie-info">
-        <h1>Naruto:Road To Ninja</h1>
-        <p><span class="rating">PG-13</span> 1hr 45min - Action/ Aventure </p>
-        <div class="stars">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-        </div><!--stars end-->
-        <p>
-          Naruto et Sakura sont capturés dans un monde parallèle par Madara, dont l'intention est de voler les Neuf Queues de Naruto.
-        </p>
-        <button id="play-btn" onclick="location.href = 'watch?play=narutorn';">
-          <i class="fa fa-play-circle"></i> Regarde
-        </button>
-      </div><!--movie-info end-->
-  </div>
-    <div class="section four active">
-      <div class="movie-info">
-        <h1>ToyStory</h1>
-        <p><span class="rating">R</span> 1hr 14min - Aventure</p>
-        <div class="stars">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-        </div><!--stars end-->
-        <p>
-          Une poupée de cow-boy est profondément menacée et jalouse lorsqu'une nouvelle figurine d'homme de l'espace le supplante en tant que jouet haut de gamme dans la chambre d'un garçon.
-        </p>
-        <button id="play-btn" onclick="location.href = 'watch?play=toystory';">
-          <i class="fa fa-play-circle"></i> Regarde
-        </button>
-      </div><!--movie-info end-->
-  </div>
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js'></script><script  src="./script.js"></script>
-
-</body>
+            #content
+            {
+                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <iframe width="100%" height="100%" frameborder="0" src="home.html" />
+        </div>
+    </body>
 </html>
