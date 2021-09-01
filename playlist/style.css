@@ -165,6 +165,7 @@ body { background: #0e0e0e; }
 }
 #loadImg div {
 display:table-cell;
+	cursor : progress;
 	width:9999px;
 	height:700px;
 	background:#000;
