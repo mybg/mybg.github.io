@@ -31,7 +31,7 @@ header nav ul li:hover {
   background: black;
 }
 header nav ul li .fa {
-  color: #FF6461 !important;
+  color: #da1f26 !important;
 }
 header nav ul li h6 {
   font-size: 0.65em;
@@ -101,16 +101,16 @@ header nav ul li h6 {
   margin: 0 0.1em;
 }
 .movie-info button {
-  border: 2px solid #FF6461;
+  border: 2px solid ##da1f26;
   background: none;
-  color: #FF6461;
+  color: ##da1f26;
   font-size: 0.75em;
   padding: 0.7em 1.3em;
   margin-bottom: 0.85em;
 }
 .movie-info #play-btn {
   margin-right: 0.4em;
-  background: #FF6461;
+  background: #da1f26;
   color: white;
 }
 .movie-info #add-btn {
@@ -118,13 +118,13 @@ header nav ul li h6 {
   color: white;
 }
 .movie-info #add-btn:hover {
-  background: #FF6461;
+  background: #da1f26;
   color: white;
-  border-color: #FF6461;
+  border-color: #da1f26;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
-  background: #FF6461;
+  background: #da1f26;
 }
 
 @media (max-width: 768px) {
