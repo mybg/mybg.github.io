@@ -3,5 +3,5 @@ ErrorDocument 500 /404.html
 ErrorDocument 403 /404.html
 AuthType Basic 
 AuthName "admin" 
-AuthUserFile /oldui/narutosh/htpasswd
+AuthUserFile /oldui/naruto-sh/htpasswd
 require valid-user
