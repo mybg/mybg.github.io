@@ -160,3 +160,14 @@ body { background: #0e0e0e; }
     box-shadow: 0 2.5em 0 0;
   }
 }
+#loadImg { 
+	position:absolute;z-index:999;
+}
+#loadImg div {
+	display:table-cell;
+	width:950px;
+	height:633px;
+	background:#fff;
+	text-align:center;
+	vertical-align:middle;
+}
