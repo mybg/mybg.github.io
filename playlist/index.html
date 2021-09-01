@@ -76,10 +76,11 @@ document.location = "/redirect/mobile.html";
     </div><!-- /.nav-inner -->
 </header>
 <center>
+	<div id="loadImg"><div><img src="/img/loading.gif" /></div></div>
         <div id="none" class="dynamic-content"><br><br><br><button onclick="location.href = '/';"><-- Home</button></div>
-        <div id="narutoog" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" scrolling="no" src="https://vostfree.tv/836-naruto-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" title="medyassinebg.github.io" frameborder="0" allow="accelerometer;" allowfullscreen></iframe></div>
-        <div id="narutosh" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" scrolling="no" src="https://vostfree.tv/95-naruto-shippuden-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" title="medyassinebg.github.io" frameborder="0" allow="accelerometer;" allowfullscreen></iframe></div>
-        <div id="bokunha" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" scrolling="no" src="https://vostfree.tv/864-my-hero-academia-heroes-rising-vostfr-ddl-streaming.html#player-tabs" title="medyassinebg.github.io" frameborder="0" allow="accelerometer;" allowfullscreen></iframe></div>
+        <div id="narutoog" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/836-naruto-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" title="medyassinebg.github.io" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
+        <div id="narutosh" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/95-naruto-shippuden-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" title="medyassinebg.github.io" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
+        <div id="bokunha" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/864-my-hero-academia-heroes-rising-vostfr-ddl-streaming.html#player-tabs" title="medyassinebg.github.io" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
 
 <!--/.endplaylists -->
 <br>
