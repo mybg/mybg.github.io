@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+header nav {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.5);
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  color: white;
+}
+header nav ul li {
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  line-height: 1.9;
+  padding: 0.5em;
+  border-top: solid 2px transparent;
+}
+header nav ul li:hover {
+  border-top-color: #FF6461;
+  color: white;
+  background: black;
+}
+header nav ul li .fa {
+  color: #FF6461 !important;
+}
+header nav ul li h6 {
+  font-size: 0.65em;
+}
+
+#fp-nav ul li a span {
+  color: white;
+}
+
+.one {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("/p/img/covers/mrbean.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.two {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("/p/img/covers/tomandjerry.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.three {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("/p/img/covers/narutomv.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.four {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("/p/img/covers/toystory.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.movie-info {
+  color: white;
+  text-shadow: 0 0 30px black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  margin-left: 8em;
+  padding-right: 10em;
+}
+.movie-info h1 {
+  font-weight: 100;
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+}
+.movie-info p {
+  margin-bottom: 1.8em;
+  letter-spacing: 1px;
+}
+.movie-info p .rating {
+  border: solid 2px lightgray;
+  color: lightgray;
+  padding: 0.15em 0.4em;
+  font-size: 0.85em;
+  margin-right: 0.45em;
+}
+.movie-info .stars {
+  margin: 1em 0;
+}
+.movie-info .stars i {
+  color: #FF6461;
+  margin: 0 0.1em;
+}
+.movie-info button {
+  border: 2px solid #FF6461;
+  background: none;
+  color: #FF6461;
+  font-size: 0.75em;
+  padding: 0.7em 1.3em;
+  margin-bottom: 0.85em;
+}
+.movie-info #play-btn {
+  margin-right: 0.4em;
+  background: #FF6461;
+  color: white;
+}
+.movie-info #add-btn {
+  border-color: white;
+  color: white;
+}
+.movie-info #add-btn:hover {
+  background: #FF6461;
+  color: white;
+  border-color: #FF6461;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #FF6461;
+}
+
+@media (max-width: 768px) {
+  li:nth-of-type(2), li:nth-of-type(4), li:nth-of-type(8) {
+    display: none;
+  }
+
+  .movie-info {
+    margin-left: 5em;
+    padding-right: 2em;
+  }
+  .movie-info h1 {
+    font-size: 2em;
+  }
+  .movie-info p {
+    font-size: 0.95em;
+  }
+}
+@media (max-width: 425px) {
+  li:nth-of-type(7) {
+    display: none;
+  }
+
+  .movie-info {
+    margin-left: 3.5em;
+    margin-top: 4em;
+    padding-right: 0.5em;
+  }
+  .movie-info p:nth-of-type(1) {
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  .movie-info p:nth-of-type(2) {
+    line-height: 1.2;
+    letter-spacing: 0.15em;
+  }
+}

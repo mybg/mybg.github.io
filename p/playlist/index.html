@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Playlist - MYB</title>
+  <link rel="icon" href="/p/img/icon.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+if (screen.width <= 699) {
+document.location = "/p/redirect/mobile.html";
+}
+</script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body oncontextmenu="return false;">
+	  <noscript><h6 style="colorwhite;">Javascript is disabled!</h6>
+        <meta HTTP-EQUIV="REFRESH" content="0; url=/nojs.html">
+        </noscript> 
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript">
+	// Parse the URL parameter
+	function getParameterByName(name, url) {
+	    if (!url) url = window.location.href;
+	    name = name.replace(/[\[\]]/g, "\\$&");
+	    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	        results = regex.exec(url);
+	    if (!results) return null;
+	    if (!results[2]) return '';
+	    return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+	// Give the parameter a variable name
+	var dynamicContent = getParameterByName('v');
+ 
+	 $(document).ready(function() {
+ 
+		if (dynamicContent == 'narutoog') {
+			$('#narutoog').show();
+		} 
+		else if (dynamicContent == 'narutosh') {
+			$('#narutosh').show();
+		} 
+		else if (dynamicContent == 'bokunha') {
+			$('#bokunha').show();
+		}
+		else if (dynamicContent == 'boruto') {
+			$('#boruto').show();
+		} 
+		else if (dynamicContent == 'onepiece') {
+			$('#onepiece').show();
+		} 
+		else if (dynamicContent == 'fairyt') {
+			$('#fairyt').show();
+		} 		 
+		else {
+			$('#none').show();
+		}
+	});
+</script>
+<!-- partial:index.partial.html -->
+<header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+		<div class="container">
+        
+            <!-- Mobile toggle button -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="/p/home/"></a>
+            <nav class="nav-collapse collapse">
+                <ul class="nav">
+                    <li><img src="/p/img/homeicon.png" alt="MYB" width="62" height="41"></li>
+                    <li><p></li>
+				    <li><a href="/p/home/">Acceuil</a></li>      
+				    <li><a href="/p/discover/">Découvrir</a></li>                
+				                
+                
+				</ul><!-- /.nav -->           
+            </nav><!--/.nav-collapse -->
+                    
+        </div><!-- /.container -->
+    </div><!-- /.nav-inner -->
+</header>
+<center>
+	<div id="loadImg"><div><img src="/p/img/loading.gif" /></div></div>
+        <div id="none" class="dynamic-content"><br><br><br><button onclick="location.href = '/p/';"><-- Home</button></div>
+        <div id="narutoog" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/836-naruto-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
+        <div id="narutosh" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/95-naruto-shippuden-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
+        <div id="bokunha" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/864-my-hero-academia-heroes-rising-vostfr-ddl-streaming.html#player-tabs" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
+        <div id="boruto" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/445-boruto-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
+        <div id="onepiece" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/94-one-piece-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
+        <div id="fairyt" class="dynamic-content"><iframe width="1014" height="654" loading="lazy" name=iframe scrolling="no" src="https://vostfree.tv/93-fairy-tail-vf-ddl-streaming-1fichier-uptobox.html#player-tabs" frameborder="0" allow="accelerometer;" onload="document.getElementById('loadImg').style.display='none';" allowfullscreen></iframe></div>
+
+<!--/.endplaylists -->
+<br>
+<img src="/p/img/icon.png" alt="MED YASSIN" width="20" height="20"><p>
+<footer style="color:white; font-family:helvetica;">
+&copy Copyright 2021, MYB.
+</footer>
+</center>
+</body>
+</html>
