@@ -167,7 +167,10 @@ body { background: #0e0e0e; }
 	display:table-cell;
 	width:950px;
 	height:633px;
-	background:#fff;
-	text-align:center;
-	vertical-align:middle;
+	background-color: transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
 }
