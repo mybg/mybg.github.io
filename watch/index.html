@@ -80,11 +80,13 @@ document.location = "/redirect/mobile.html";
 		        else if (dynamicContent == 'sbou3i6') {
 			$('#sbou3i6').show();
 		} 
-				else if (dynamicContent == 'jackie') {
+			else if (dynamicContent == 'jackie') {
 			$('#jackie').show();
 		} 
-		// Check if the URL parmeter is empty or not defined, display default content
-		else {
+		        else if (dynamicContent == 'loadgame=dynamonsw') {
+			$('#dynamonsw').show();
+		} 
+		 else {
 			$('#none').show();
 		}
 	});
@@ -135,7 +137,8 @@ document.location = "/redirect/mobile.html";
         <div id="spider" class="dynamic-content"><iframe onload="document.getElementById('loadImg').style.display='none';" loading="lazy" name=iframe width="854" height="480" src="https://www.youtube.com/embed/j89asMVtFM0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div id="batmantm" class="dynamic-content"><iframe onload="document.getElementById('loadImg').style.display='none';" loading="lazy" name=iframe width="854" height="480" src="https://www.youtube.com/embed/Z-8IagzkLXY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div id="sbou3i6" class="dynamic-content"><iframe onload="document.getElementById('loadImg').style.display='none';" loading="lazy" name=iframe width="854" height="480" src="https://www.youtube.com/embed/videoseries?list=PLaUcS6WAyT4W4berd9p_8Qm1wb_lXmYnG" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<!--/.endplaylists -->
+        <div id="dynamonsw" class="dynamic-content"><iframe onload="document.getElementById('loadImg').style.display='none';" loading="lazy" name=iframe width="854" height="480" src="https://dynamons-world.fbrq.io/dynamons-world/index.html" title="DynamonsW On MYB" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	<!--/.endplaylists -->
 <br><br>
 <img src="/img/icon.png" alt="MED YASSIN" width="20" height="20"><p>
 <footer style="color:white; font-family:helvetica;">
