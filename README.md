@@ -1,6 +1,6 @@
 # MYB - OPEN SOURCE MEDIA LIBRARY
 
-![alt text](https://mybg.github.io/p/img/coverofficial.jpg)
+![MYB](https://mybg.github.io/p/img/coverofficial.jpg)
 
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
