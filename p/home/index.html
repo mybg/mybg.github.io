@@ -8,6 +8,12 @@
 
 </head>
 <body oncontextmenu="return false;">
+	<script language=javascript>
+    var uAgent = navigator.userAgent;
+   if (uAgent.indexOf("MybDesktopApp") != -1) {
+      window.location = ("/app/kr");
+   }
+</script>
   <script type="text/javascript">
     if (screen.width <= 699) {
     document.location = "/p/redirect/mobile.html";
