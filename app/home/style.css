@@ -427,18 +427,3 @@ img {
 	margin-top: 3rem;
 }
 }
-.page    { display: none; padding: 0 0.5em; }
-
-#loading {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
-  background-image: url("/p/img/loading.gif");
-  background-repeat: no-repeat;
-  background-position: center;
-}
