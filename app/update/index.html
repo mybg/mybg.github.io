@@ -4,11 +4,15 @@
     <link rel="icon" href="/p/img/icon.png">
     <title>MYB APP - Version</title>
     <body oncontextmenu="return false;">
-      	<script language=javascript>
-    var uAgent = navigator.userAgent;
-   if (uAgent.indexOf != ("MybDesktopApp")) {
-      window.location = ("/p/");
-   }
+<script type="text/javascript">
+var ver = navigator.userAgent;
+if (ver.indexOf('MybDesktopApp') == -1)
+{
+window.location = "/p/";
+}
+else
+{
+}
 </script>
       <center>
         <br><br><br><br><br><br><br><br><br>
