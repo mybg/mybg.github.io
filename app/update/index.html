@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <script type="text/javascript">
-function poponload()
-{
-    testwindow = window.open("cm.html", "myWindow", "location=1,status=1,scrollbars=1,width=600,height=500");
-}
-function winClose() {
-     myWindow.close()
-}   
-</script>
-</head>
-<body onload="javascript: poponload()" bgcolor="#FFFFFF" text="#000000" topmargin="0">
-<h1>up to date</h1>
-</body>
-</html>
+  <head>
+    <link rel="icon" href="/p/img/icon.png">
+    <title>MYB APP - Version</title>
+    <body oncontextmenu="return false;">
+      <center>
+        <br><br><br><br><br><br><br><br><br>
+        <img src="/p/img/icon.png" alt="MYB" width="64" height="64"><p>
+        <h1 style="color:grey; font-family: Arial, Helvetica, sans-serif;">MYB APP - Up To Date!</h1><p>
+        <p id="demo" style="color:black; font-family: Arial, Helvetica, sans-serif;"></p>
+ <script>         var x = "User-agent header sent: " + navigator.userAgent;
+  document.getElementById("version").innerHTML = x;
+   }</script>
+      </center>
+    </body>
+    </html>
