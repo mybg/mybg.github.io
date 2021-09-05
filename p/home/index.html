@@ -15,17 +15,22 @@
    }
 </script>
 	<body oncontextmenu="return false;">
-	<script language=javascript>
+<script language=javascript>
     var uAgent = navigator.userAgent;
    if (uAgent.indexOf("Linux") != -1) {
-      window.location = ("/p/home?p=linux");
+	   		$(document).ready(function () {
+    if(window.location.contains != ("linux"))
+    {
+       window.location = ("/p/home?p=linux");
    }
 </script>
-		<body oncontextmenu="return false;">
 	<script language=javascript>
     var uAgent = navigator.userAgent;
    if (uAgent.indexOf("Windows") != -1) {
-      window.location = ("/p/home?p=windows");
+	   		$(document).ready(function () {
+    if(window.location.contains != ("windows"))
+    {
+       window.location = ("/p/home?p=windows");
    }
 </script>
   <script type="text/javascript">
