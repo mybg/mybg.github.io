@@ -17,21 +17,6 @@ html, body {
   line-height: 1.4;
 }
 
-.cont{
-    position:relative;
-    overflow:hidden;
-    height:200px;
-    width:100%;
-    border:1px solid red;
-}
-.s{
-    overflow-y:scroll;
-    height:200px;
-    width:100%;
-    position:absolute;
-    right:-30px;
-}
-
 .page    { display: none; padding: 0 0.5em; }
 
 #loading {
