@@ -76,6 +76,10 @@ img {
 	margin-left: 0;
 }
 
+.dynamic-content {
+    display:none;
+}
+
 .showcase-top a {
 	position: absolute;
 	top: 50%;
