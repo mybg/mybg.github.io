@@ -16,13 +16,15 @@
    }
 </script>
 	<body oncontextmenu="return false;">
-<script language=javascript>
+	<script language=javascript>
     var uAgent = navigator.userAgent;
    if (uAgent.indexOf("Linux") != -1) {
 	   		$(document).ready(function () {
     if(window.location.contains != ("linux"))
     {
-       window.location = ("/p/home?p=linux");
+   }
+   else {
+	          window.location = ("/p/home?p=linux");
    }
 </script>
 	<script language=javascript>
@@ -31,7 +33,9 @@
 	   		$(document).ready(function () {
     if(window.location.contains != ("windows"))
     {
-       window.location = ("/p/home?p=windows");
+   }
+   else {
+	          window.location = ("/p/home?p=windows");
    }
 </script>
   <script type="text/javascript">
