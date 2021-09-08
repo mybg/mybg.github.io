@@ -23,7 +23,7 @@ html, body {
 }
   
   .alert {
-  padding: 2px;
+  padding: 20px;
   background-color: #F5C711;
   color: white;
 }
