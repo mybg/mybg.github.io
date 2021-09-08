@@ -25,13 +25,36 @@
   <script src="main.js"></script>
 </head>
 <body>
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript">
+	// Parse the URL parameter
+	function getParameterByName(name, url) {
+	    if (!url) url = window.location.href;
+	    name = name.replace(/[\[\]]/g, "\\$&");
+	    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	        results = regex.exec(url);
+	    if (!results) return null;
+	    if (!results[2]) return '';
+	    return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+	// Give the parameter a variable name
+	var dynamicContent = getParameterByName('play');
+ 
+	 $(document).ready(function() {
+ 
+		if (dynamicContent == 'app') {
+			$('#app').show();
+		} 
+		 else {
+			$('#none').show();
+		}
+	});
+</script>
     <noscript><h6 style="colorwhite;">Javascript is disabled!</h6>
         <meta HTTP-EQUIV="REFRESH" content="0; url=/nojs.html">
         </noscript> 
   <div class="page">
 	<div class="wrapper">
-
-    <!-- HEADER -->
     <header>
       <div class="netflixLogo">
         <a id="logo" href="/p/"><img src="/p/img/logo.png" alt="MYBG"></a>
@@ -46,6 +69,10 @@
     <!-- END OF HEADER -->
     
     <!-- MAIN CONTAINER -->
+		<div class="alert" class="textalert" id="none" class="dynamic-content">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong class="textalert">Warning!</strong><a class="textalert"> You may experience some form of lag since your using the web version of myb.</a>
+</div>
     <section class="main-container" >
       <div class="location" id="home">
           <h1 id="1">Populaire sur MYB</h1>
