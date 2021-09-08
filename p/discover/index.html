@@ -23,7 +23,11 @@
 	<script language=javascript>
     var uAgent = navigator.userAgent;
    if (uAgent.indexOf("MybDesktopApp") != -1) {
+	   if(window.location.href.indexOf('/p/discover?p=app') !== -1){   
+}
+	   else {
       window.location = ("/p/discover?p=app");
+	   }
    }
 </script>
   <script src="main.js"></script>
