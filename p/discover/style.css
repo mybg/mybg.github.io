@@ -18,6 +18,35 @@ html, body {
   overflow-x: hidden;
 }
 
+.dynamic-content {
+    display:none;
+}
+  
+  .alert {
+  padding: 20px;
+  background-color: #F5C711;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.textalert {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.closebtn:hover {
+  color: grey;
+}
+
 .page    { display: none; padding: 0 0.5em; }
 
 #loading {
@@ -293,35 +322,6 @@ footer {
     text-align: center;
     font-size: 15px;
   }
-
-.dynamic-content {
-    display:none;
-}
-  
-  .alert {
-  padding: 20px;
-  background-color: #F5C711;
-  color: white;
-}
-
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.textalert {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.closebtn:hover {
-  color: grey;
-}
 
   
    
