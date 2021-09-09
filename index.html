@@ -11,7 +11,12 @@
 <body style="cursor: progress;" oncontextmenu="return false;"> 
     <noscript>
    <meta HTTP-EQUIV="REFRESH" content="0; url=/nojs.html">
-  </noscript>       
+  </noscript> 
+    <script>
+  if (location.protocol !== "https:") {
+  location.protocol = "https:";
+}
+  </script>
   <script>
          setTimeout(function(){
             window.location.href = '/p/';
