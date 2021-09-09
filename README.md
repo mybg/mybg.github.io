@@ -1,4 +1,4 @@
-# MYB - The Web Based App 
+# MYB - A Web Based App 
 
 ![MYB](https://raw.githubusercontent.com/mybg/mybg.github.io/MYB_V4/p/img/coverofficial.jpg)
 
