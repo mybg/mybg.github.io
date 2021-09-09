@@ -1,4 +1,4 @@
-# MYB - OPEN SOURCE MEDIA LIBRARY
+# MYB - The Web Based App 
 
 ![MYB](https://raw.githubusercontent.com/mybg/mybg.github.io/MYB_V4/p/img/coverofficial.jpg)
 
@@ -6,43 +6,29 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 
-## Features
+## Latest Version of MYB APP :
 
-- Easy to use
-- Lightning fast
-- Low end systems freindly
+- Download (Windows/Linux) : https://github.com/mybg/mybg.github.io/releases/tag/myb
 
+Mac Support Will Be Here Soon.
 
+## Languages used to develop MYB.
 
-## Host MYB yourself!
-
-
-## Installation on ubuntu/debian
-
-
-Install apashe2 & git
+Note : MYB is only being actively develop by @wh1ter0seo4.
 
 ```sh
-sudo apt-get install apache2
-sudo apt-get install git
+
+$ HTML & CSS & Javascript for visuals.
+
+$ Javascript & JQuery for loading in video-content.
+
+$ Python that's powering an AI to create banners and info pages.
+
+$ C# & C++ used with eletronjs to power up the MYB APP.
+
 ```
 
-Start apache2.service
-
-```sh
-sudo service apache2 start 
-```
-Clone MYB Repository
-```sh
-cd /var/www/html
-sudo git clone https://github.com/mybg/mybg.github.io.git
-```
-Getting Ready
-```sh
-sudo mv mybg.github.io/* .
-sudo service apache2 restart
-```
-# Now Head Over to localhost and MYB should be running.
+Made with <3 by @wh1ter0seo4.
 
 
 
